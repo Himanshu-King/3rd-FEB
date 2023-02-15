@@ -1,0 +1,140 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow:hidden;
+    /* background-color: red; */
+}
+.pcon
+{
+    position: absolute;
+    z-index: -5;
+    width: 98vw;
+    height: 96vh;
+    margin: 1%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 98vw 96vh;
+    border-radius: 50px;
+}
+.contain
+{
+    position: absolute;
+    z-index: -3;
+    width: 98vw;
+    height: 96vh; 
+    margin: 1%;
+    /* background-color: rgb(255, 0, 0); */
+    background-image: url(3.png);
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    background-size: 98vw 96vh;
+    border-radius: 50px;
+}
+.mainb
+{
+    /* Making internal element to therir right positions */
+    width: 98vw;
+    height: 96vh; 
+    margin: 1%;
+    /* border:solid 2px black; */
+
+    /* Flex properties */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header
+{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 11.4vh;
+}
+header div
+{
+    /* border: red 2px solid; */
+    margin:0px 2%;
+    align-self: flex-end;
+}
+header ul
+{
+    /* border: red 2px solid; */
+    margin-right: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5vw;
+    color: rgb(255,194,51);
+    font-size: 17px;
+}
+header ul li:hover
+{
+    /* border: red 2px solid; */
+    background-color: rgb(211, 153, 16);
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 3px;
+    font-weight: 600;
+}
+button
+{
+    border: none;
+    margin-right: 5%;
+    font-size: 19px;
+    padding: 0.5% 1.2%;
+    background-color: rgb(255,81,95);
+    color: white;
+}
+button:hover
+{
+    font-weight: 600;
+    color: rgb(255,81,95);
+    background-color: #ffffff;
+    border:  rgb(255,81,95) solid 2px;
+    cursor: pointer;
+}
+section
+{
+    height : 60vh;
+    /* border: red 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section p
+{
+    color :rgb(255,194,51);
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Red Rose', cursive;
+}
+section button
+{
+    margin-right: 0px;
+    position: relative;
+    top: 20px;
+}
+footer
+{
+    height: 20vh;
+    /* border: 1px solid red; */
+}
+footer
+{
+    height: 20vh;
+    /* border: black 1px solid; */
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+footer img
+{
+    width: 9vw;
+}
